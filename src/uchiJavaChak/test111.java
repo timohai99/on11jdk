@@ -13,4 +13,18 @@ class test {
         int summaTrexChisel = d.summa(12,11,11);
         System.out.println(summaTrexChisel);
     }
+
+    public static class test2 {
+        int summa (int a, int b, int c) {
+            int result = a+b+c;
+            return result;
+
+
+
+        }
+
+        public static void main(String[] args) {
+            System.out.println(result(4,3,2));
+        }
+    }
 }
